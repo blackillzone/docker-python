@@ -11,4 +11,5 @@ install:
   - docker build -t alpine/python:2.7 .
 
 script:
+  - chmod +x test.sh
   - ./test.sh
